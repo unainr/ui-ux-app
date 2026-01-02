@@ -55,7 +55,7 @@ Instructions:
 		}
 
 		const { text } = await generateText({
-			model: groq("llama-3.3-70b-versatile"),
+			model: groq("openai/gpt-oss-120b"),
 			system: GENERATE_UI_SYSTEM_PROMPT,
 			prompt: prompt,
 		});
